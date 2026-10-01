@@ -104,4 +104,28 @@ Os testes usam um banco SQLite temporário e cobrem o CRUD, o soft delete, o tra
 
 ## Prints
 
-Os prints das operações em funcionamento estão na pasta [`prints/`](prints/).
+Imagens geradas a partir da saída real da aplicação em execução (pasta [`prints/`](prints/)).
+
+### Inserir produto
+![Inserir produto](prints/01-inserir.png)
+
+### Listar produtos
+![Listar produtos](prints/02-listar.png)
+
+### Buscar produto por ID
+![Buscar produto por ID](prints/03-buscar-por-id.png)
+
+### Atualizar produto
+![Atualizar produto](prints/04-atualizar.png)
+
+### Excluir produto (soft delete)
+![Excluir produto](prints/05-excluir.png)
+
+### Listagem após atualizar e excluir
+![Listagem após alterações](prints/06-listar-apos-alteracoes.png)
+
+### Tentativa de SQL Injection tratada como texto
+![SQL Injection bloqueado](prints/07-sql-injection-bloqueado.png)
+
+### Log das operações em arquivo
+![Log de operações](prints/08-log-de-operacoes.png)
